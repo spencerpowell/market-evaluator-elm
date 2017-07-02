@@ -1,0 +1,69 @@
+var _user$project$Update$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		switch (_p0.ctor) {
+			case 'OnNextClick':
+				return ((_elm_lang$core$Native_Utils.cmp(model.pageIndex, 0) > 0) && _elm_lang$core$Native_Utils.eq(model.selectedRating, 0)) ? {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{error: 'Pick a number on the scale before proceeding!'}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				} : (_elm_lang$core$Native_Utils.eq(model.pageIndex, 10) ? {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{
+							pageIndex: model.pageIndex + 1,
+							totalScore: _elm_lang$core$List$sum(model.scores) + model.selectedRating,
+							selectedRating: 0,
+							scores: {ctor: '::', _0: model.selectedRating, _1: model.scores}
+						}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				} : {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{
+							pageIndex: model.pageIndex + 1,
+							selectedRating: 0,
+							scores: {ctor: '::', _0: model.selectedRating, _1: model.scores}
+						}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				});
+			case 'OnPrevClick':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{
+							pageIndex: model.pageIndex - 1,
+							selectedRating: 0,
+							scores: A2(_elm_lang$core$List$drop, 1, model.scores),
+							error: ''
+						}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'OnScaleSelect':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{selectedRating: _p0._0, error: ''}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			default:
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{
+							selectedRating: 0,
+							pageIndex: 0,
+							totalScore: 0,
+							scores: {ctor: '[]'}
+						}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+		}
+	});

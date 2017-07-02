@@ -1,0 +1,644 @@
+var _user$project$View$button10 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(10);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-10'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-10'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('10'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button9 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(9);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-9'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-9'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('9'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button8 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(8);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-8'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-8'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('8'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button7 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(7);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-7'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-7'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('7'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button6 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(6);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-6'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-6'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('6'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button5 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(5);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-5'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-5'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('5'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button4 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(4);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-4'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-4'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('4'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button3 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(3);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-3'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-3'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('3'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button2 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(2);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-2'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-2'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('2'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$button1 = function () {
+	var message = _user$project$Msgs$OnScaleSelect(1);
+	return A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('btn-scale-1'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#btn-scale-1'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn btn-scale'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('1'),
+			_1: {ctor: '[]'}
+		});
+}();
+var _user$project$View$chartScale = function (model) {
+	return ((_elm_lang$core$Native_Utils.cmp(model.pageIndex, 0) > 0) && (_elm_lang$core$Native_Utils.cmp(model.pageIndex, 11) < 0)) ? A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('chart-scale'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _user$project$View$button1,
+			_1: {
+				ctor: '::',
+				_0: _user$project$View$button2,
+				_1: {
+					ctor: '::',
+					_0: _user$project$View$button3,
+					_1: {
+						ctor: '::',
+						_0: _user$project$View$button4,
+						_1: {
+							ctor: '::',
+							_0: _user$project$View$button5,
+							_1: {
+								ctor: '::',
+								_0: _user$project$View$button6,
+								_1: {
+									ctor: '::',
+									_0: _user$project$View$button7,
+									_1: {
+										ctor: '::',
+										_0: _user$project$View$button8,
+										_1: {
+											ctor: '::',
+											_0: _user$project$View$button9,
+											_1: {
+												ctor: '::',
+												_0: _user$project$View$button10,
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}) : _elm_lang$html$Html$text('');
+};
+var _user$project$View$prevBtn = function (model) {
+	var message = _user$project$Msgs$OnPrevClick;
+	return _elm_lang$core$Native_Utils.eq(model.pageIndex, 0) ? _elm_lang$html$Html$text('') : A2(
+		_elm_lang$html$Html$a,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$href('#'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$id('prevBtn'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('btn'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(message),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Previous'),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$View$nextBtn = function (model) {
+	var message = _user$project$Msgs$OnNextClick;
+	if (_elm_lang$core$Native_Utils.eq(model.pageIndex, 0)) {
+		return A2(
+			_elm_lang$html$Html$a,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$href('#'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$id('nextBtn'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('btn'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Events$onClick(message),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Begin'),
+				_1: {ctor: '[]'}
+			});
+	} else {
+		if (_elm_lang$core$Native_Utils.eq(model.pageIndex, 10)) {
+			return A2(
+				_elm_lang$html$Html$a,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$href('#'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$id('nextBtn'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('btn'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Events$onClick(message),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Finish'),
+					_1: {ctor: '[]'}
+				});
+		} else {
+			if (_elm_lang$core$Native_Utils.eq(model.pageIndex, 11)) {
+				var startOver = _user$project$Msgs$StartOver;
+				return A2(
+					_elm_lang$html$Html$a,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$href('#'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('nextBtn'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('btn'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Events$onClick(startOver),
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Start Over'),
+						_1: {ctor: '[]'}
+					});
+			} else {
+				return A2(
+					_elm_lang$html$Html$a,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$href('#'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('nextBtn'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('btn'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Events$onClick(message),
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Next'),
+						_1: {ctor: '[]'}
+					});
+			}
+		}
+	}
+};
+var _user$project$View$navigationBtns = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('navigation'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _user$project$View$prevBtn(model),
+			_1: {
+				ctor: '::',
+				_0: _user$project$View$nextBtn(model),
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _user$project$View$example = function (model) {
+	var example = A2(
+		_elm_lang$core$Maybe$withDefault,
+		'',
+		A2(_elm_community$list_extra$List_Extra$getAt, model.pageIndex, model.examples));
+	return A2(
+		_elm_lang$html$Html$p,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('example'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(example),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$View$prompt = function (model) {
+	var prompt = A2(
+		_elm_lang$core$Maybe$withDefault,
+		'',
+		A2(_elm_community$list_extra$List_Extra$getAt, model.pageIndex, model.prompts));
+	if (_elm_lang$core$Native_Utils.eq(model.pageIndex, 11)) {
+		if (_elm_lang$core$Native_Utils.cmp(model.totalScore, 50) < 0) {
+			var advice = A2(
+				_elm_lang$core$Maybe$withDefault,
+				'',
+				A2(_elm_community$list_extra$List_Extra$getAt, 0, model.adviceResults));
+			return A2(
+				_elm_lang$html$Html$p,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$id('prompt'),
+					_1: {ctor: '[]'}
+				},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text(advice),
+					_1: {ctor: '[]'}
+				});
+		} else {
+			if (_elm_lang$core$Native_Utils.cmp(model.totalScore, 76) < 0) {
+				var advice = A2(
+					_elm_lang$core$Maybe$withDefault,
+					'',
+					A2(_elm_community$list_extra$List_Extra$getAt, 1, model.adviceResults));
+				return A2(
+					_elm_lang$html$Html$p,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$id('prompt'),
+						_1: {ctor: '[]'}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text(advice),
+						_1: {ctor: '[]'}
+					});
+			} else {
+				var advice = A2(
+					_elm_lang$core$Maybe$withDefault,
+					'',
+					A2(_elm_community$list_extra$List_Extra$getAt, 2, model.adviceResults));
+				return A2(
+					_elm_lang$html$Html$p,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$id('prompt'),
+						_1: {ctor: '[]'}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text(advice),
+						_1: {ctor: '[]'}
+					});
+			}
+		}
+	} else {
+		return A2(
+			_elm_lang$html$Html$p,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$id('prompt'),
+				_1: {ctor: '[]'}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text(prompt),
+				_1: {ctor: '[]'}
+			});
+	}
+};
+var _user$project$View$title = function (model) {
+	var title = A2(
+		_elm_lang$core$Maybe$withDefault,
+		'',
+		A2(_elm_community$list_extra$List_Extra$getAt, model.pageIndex, model.titles));
+	return _elm_lang$core$Native_Utils.eq(model.pageIndex, 11) ? A2(
+		_elm_lang$html$Html$h2,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('title'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(
+				A2(
+					_elm_lang$core$String$append,
+					title,
+					_elm_lang$core$Basics$toString(model.totalScore))),
+			_1: {ctor: '[]'}
+		}) : A2(
+		_elm_lang$html$Html$h2,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$id('title'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(title),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$View$error = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('error'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(model.error),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$View$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _user$project$View$title(model),
+			_1: {
+				ctor: '::',
+				_0: _user$project$View$prompt(model),
+				_1: {
+					ctor: '::',
+					_0: _user$project$View$chartScale(model),
+					_1: {
+						ctor: '::',
+						_0: _user$project$View$example(model),
+						_1: {
+							ctor: '::',
+							_0: _user$project$View$navigationBtns(model),
+							_1: {
+								ctor: '::',
+								_0: _user$project$View$error(model),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}
+			}
+		});
+};
