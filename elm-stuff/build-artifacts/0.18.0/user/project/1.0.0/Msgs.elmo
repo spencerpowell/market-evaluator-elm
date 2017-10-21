@@ -1,6 +1,0 @@
-var _user$project$Msgs$StartOver = {ctor: 'StartOver'};
-var _user$project$Msgs$OnScaleSelect = function (a) {
-	return {ctor: 'OnScaleSelect', _0: a};
-};
-var _user$project$Msgs$OnPrevClick = {ctor: 'OnPrevClick'};
-var _user$project$Msgs$OnNextClick = {ctor: 'OnNextClick'};
