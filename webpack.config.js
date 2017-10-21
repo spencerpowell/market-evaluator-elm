@@ -1,14 +1,10 @@
-var path = require("path");
+const path = require("path");
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: {
-    app: [
-      './src/index.js'
-    ]
-  },
-
+  entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname + '/dist'),
+    path: path.resolve(__dirname + '/build'),
     filename: '[name].js',
   },
 
@@ -16,10 +12,13 @@ module.exports = {
     rules: [
       {
         test: /\.(css|scss)$/,
-        use: [
-          'style-loader',
-          'css-loader',
-        ]
+        use: ExtractTextPlugin.extract({
+          use: 'css-loader'
+        }),
+      },
+      {
+        use: 'babel-loader',
+        test: /\.js$/
       },
       {
         test:    /\.html$/,
@@ -30,24 +29,18 @@ module.exports = {
         test:    /\.elm$/,
         exclude: [/elm-stuff/, /node_modules/],
         loader:  'elm-webpack-loader?verbose=true&warn=true',
-      },
-      {
-        test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'url-loader?limit=10000&mimetype=application/font-woff',
-      },
-      {
-        test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'file-loader',
-      },
+      }
     ],
 
     noParse: /\.elm$/,
   },
 
+  plugins: [
+    new ExtractTextPlugin('style.css')
+  ],
+
   devServer: {
     inline: true,
     stats: { colors: true },
-  },
-
-
+  }
 };

@@ -40,17 +40,10 @@ $blueRomance: #DCF8D8;
 $screaminGreen: #70F359;
 
 html {
-    height: 100%;
-    width: 100%;
     body {
-        width: 100%;
-        height: 100%;
-       #main {
-            background-color: $backgroundColor;
-            font: 100% $fontStack;
-            color: $fontColor;
-            height: 100%;
-        }
+        background-color: $backgroundColor;
+        font: 100% $fontStack;
+        color: $fontColor;
     }
 
     .error {
@@ -113,7 +106,7 @@ html {
         border-radius: 50px;
         height: 24px;
         text-align: center;
-        line-height: 6px;
+        line-height: 24px;
         text-decoration: none;
     }
 
