@@ -55,7 +55,7 @@ initialModel =
         , "The market for underwater basket weaving courses is very small; the market for cancer cures is massive."
         , "Lollipops sell for $0.05; aircraft carriers sell for billions."
         , "Restaurants built on high-traffic interstate high-ways spend little to bring in new customers.  Government contractors can spend millions landing major procurement deals."
-        , "Delivering files via the Internet is almost free; inventing a product and building a factor costs millions."
+        , "Delivering files via the Internet is almost free; inventing a product and building a factory costs millions."
         , "There are many hair salons, but very few companies that offer private space travel."
         , "You can offer to mow a neighbor's lawn in minutes; opening a bank can take years."
         , "To be a housekeeper, all you need is a set of inexpensive cleaning products.  To mine for gold, you need millions to purchase land and excavating equipment."
